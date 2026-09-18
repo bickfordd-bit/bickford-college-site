@@ -20,44 +20,63 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="sub">Bickford College Trivia · last updated 4 August 2026</p>
+<p class="sub">Bickford College Trivia · last updated 18 September 2026</p>
 
-<p>Bickford College Trivia is a private daily trivia game played by an invited group of friends.
-This policy describes exactly what the app collects, why, and who it is sent to. It is short
-because the app does little.</p>
+<p>Bickford College Trivia is a private trivia game played by small, invite-only groups. This
+policy describes exactly what the app collects, why, and who it is sent to.</p>
 
 <h2>What we collect</h2>
 <table>
   <tr><th>Data</th><th>Why</th></tr>
-  <tr><td>Your email address</td><td>To create and sign you into your account.</td></tr>
+  <tr><td>Your email address</td><td>To create and sign you into your account. With Sign in with
+      Apple this may be an Apple relay address.</td></tr>
   <tr><td>Your display name</td><td>Shown to other members of your group on the answers list and leaderboard.</td></tr>
-  <tr><td>Your answers, and any questions you write</td>
-      <td>The game itself. Visible to other members of your group.</td></tr>
-  <tr><td>A user identifier</td><td>To associate your answers and streak with your account.</td></tr>
+  <tr><td>Your answers, the questions and stories you write, and anything you dictate</td>
+      <td>The game itself. Visible to other members of your group. Voice input is transcribed on
+          your device; only the text is kept.</td></tr>
+  <tr><td>A user identifier</td><td>To associate your answers, streak and scores with your account.</td></tr>
   <tr><td>A device push token</td>
-      <td>Only if you allow notifications, so we can send the daily question. Delete the app or
-          turn off notifications and it stops being used.</td></tr>
+      <td>Only if you allow notifications, so we can send the question and reminders. Signing out
+          removes it; so does turning notifications off.</td></tr>
+  <tr><td>Error reports</td>
+      <td>If the app crashes or hits an error: the message, the screen, the app version and your
+          device type, linked to your account. Used only to fix bugs.</td></tr>
+  <tr><td>Reports and blocks</td>
+      <td>If you report a question or a member, or block someone: who, what, and the reason you
+          give. Used only to review the report and to hide blocked members from you.</td></tr>
+  <tr><td>Invite codes you type</td>
+      <td>Wrong codes are counted, to stop anyone guessing their way into a group.</td></tr>
 </table>
 
 <p>We do <strong>not</strong> collect location, contacts, photos, health data, or advertising
 identifiers. The app contains no advertising, no analytics or tracking SDKs, and no purchases.
-Nothing you write is public — it is visible only to members of your invite-only group.</p>
+Nothing you write is public — it is visible only to members of your invite-only group. Our hosting
+provider records IP addresses in its standard server logs for security.</p>
 
 <h2>Who your data is sent to</h2>
 <ul>
   <li><strong>Supabase</strong> hosts the database, authentication and file storage for the app.</li>
-  <li><strong>Google Vertex AI</strong> receives the <em>text of a question</em> when a group
-      administrator asks the app to generate an illustration for it, and when generating draft
-      questions from notes an administrator has written. Your answers are not sent. Google does not
-      use this content to train its models under the terms that apply to this account.</li>
+  <li><strong>Google Vertex AI</strong> generates text and pictures for the game. It receives:
+      a question, its answer and its story when someone asks for an illustration; the notes or spoken story a
+      member provides when they ask the app to help draft a question; and, to suggest memory
+      prompts for writing new questions, a sample of your group's past questions, answers,
+      stories and wrong guesses. Google does not use this content to train its models under the
+      terms that apply to this account.</li>
+  <li><strong>Apple</strong>, if you use Sign in with Apple.</li>
   <li><strong>Expo</strong> delivers push notifications, if you enable them.</li>
 </ul>
 <p>Your data is not sold, and is not shared with anyone else.</p>
 
+<h2>How long we keep it</h2>
+<p>For as long as your account exists. We keep weekly backups for up to 12 weeks so the game can be
+restored after a failure; data you delete disappears from backups as they age out.</p>
+
 <h2>Deleting your data</h2>
-<p>Open <strong>Account → Delete account</strong> in the app. This permanently deletes your account,
-your answers and your scores. If you are the last member of your group, the group and everything in
-it — including any generated illustrations — is deleted too. This cannot be undone.</p>
+<p>Open <strong>Settings → Delete account</strong> in the app. This permanently deletes your
+account, your answers and scores, your error reports, and your push token, and revokes Sign in
+with Apple. Questions you wrote in a group where you are the only member are deleted with the
+group, including any illustrations. Questions you wrote for a group that other people are still
+playing stay with that group, without your name attached. This cannot be undone.</p>
 
 <h2>Children</h2>
 <p>The app is not directed at children under 13 and we do not knowingly collect their data.</p>
